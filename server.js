@@ -8,8 +8,8 @@ const ssrCache = new lruCache({
   maxAge: 1000 * 60,
 });
 
-const port = 3000;
 const dev = process.env.NODE_ENV !== 'production';
+const port = dev ? 3000 : 80;
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
