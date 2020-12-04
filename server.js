@@ -9,7 +9,7 @@ const ssrCache = new lruCache({
 });
 
 const dev = process.env.NODE_ENV !== 'production';
-const port = dev ? 3000 : 80;
+const port = dev ? 3000 : 443;
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
