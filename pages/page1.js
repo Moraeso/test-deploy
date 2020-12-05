@@ -1,15 +1,18 @@
 import Head from 'next/head';
-import { add } from '../src/util';
 import Icon from '../static/icon.png';
 import Link from 'next/link';
 import styled from 'styled-components';
+
+Page1.getInitialProps = async () => {
+  return { data: 'some data' };
+};
 
 const MyP = styled.div`
   color: blue;
   font-size: 18pt;
 `;
 
-function Page1() {
+function Page1({ data }) {
   return (
     <div>
       <MyP>블루스프링의 홈페이지 입니다. 테스트 페이지 입니다.</MyP>

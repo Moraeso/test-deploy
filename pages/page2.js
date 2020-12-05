@@ -1,16 +1,16 @@
 import Router from 'next/router';
 import { callApi } from '../src/api';
 
-// Page2.getInitialProps = async ({ query }) => {
-//   const { sayHello } = await import('../src/sayHello');
-//   console.log(sayHello());
-//   const text = query.text || 'none';
-//   const data = await callApi();
-//   return { text, data };
-// };
+Page2.getInitialProps = async ({ query }) => {
+  const { sayHello } = await import('../src/sayHello');
+  console.log(sayHello());
+  const text = query.text || 'none';
+  const data = await callApi();
+  return { text, data };
+};
 
-// export default function Page2({ text, data }) {
-export default function Page2() {
+export default function Page2({ text, data }) {
+// export default function Page2() {
   return (
     <div>
       <button onClick={() => Router.push('/page1')}>page1로 이동</button>

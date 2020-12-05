@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5b5a70b7-35ee-4ed6-b8b9-a6de920fb1e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page1.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606992261142</updated>
-      <workItem from="1606992262883" duration="24629000" />
+      <workItem from="1606992262883" duration="26480000" />
     </task>
     <servers />
   </component>
@@ -51,10 +53,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="430" y="-771" width="1290" height="486" key="find.popup" timestamp="1607150988671">
+    <state x="425" y="-771" width="1299" height="486" key="find.popup" timestamp="1607196744988">
       <screen x="-196" y="-1055" width="1920" height="1055" />
     </state>
     <state x="430" y="-771" width="1290" height="486" key="find.popup/0.25.1440.791/-196.-1055.1920.1055@-196.-1055.1920.1055" timestamp="1607150988671" />
-    <state x="430" y="-771" width="1290" height="486" key="find.popup/0.25.1440.793/-196.-1055.1920.1055@-196.-1055.1920.1055" timestamp="1607084956364" />
+    <state x="425" y="-771" width="1299" height="486" key="find.popup/0.25.1440.793/-196.-1055.1920.1055@-196.-1055.1920.1055" timestamp="1607196744988" />
   </component>
 </project>
