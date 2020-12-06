@@ -21,10 +21,12 @@ app.prepare().then(() => {
   // server.get('/page/:id', (req, res) => {
   //   res.redirect(`/page${req.params.id}`);
   // });
-  //
-  // server.get(/^\/page[1-9]/, (req, res) => {
-  //   return renderAndCache(req, res);
-  // });
+
+  server.get(/^\/page[1-9]/, (req, res) => {
+    res.NODE_ENV = process.env.NODE_ENV;
+    return handle(req, res);
+    // return renderAndCache(req, res);
+  });
 
   server.get('*', (req, res) => {
     return handle(req, res);
